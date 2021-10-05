@@ -1,9 +1,9 @@
  #include "main.h"
 /**
- *  * print_alphabet_x10- alphabet x10
- *   *
- *    * Return: void
- *     */
+ * print_alphabet_x10- alphabet x10
+ *
+ * Return: void
+ */
 void print_alphabet_x10(void)
 {
 	int a;
@@ -11,7 +11,7 @@ void print_alphabet_x10(void)
 	for (a = 1 ; a <= 10 ; a++)
 	{
 		for (b = 'a' ; b <= 'z' ; b++)
-			_putchar(b);
+		_putchar(b);
 		_putchar('\n');
 	}
 }
