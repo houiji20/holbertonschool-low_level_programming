@@ -1,4 +1,5 @@
 #ifndef <stdio.h>
-#define <<time.h>
+#define <stdlip.h>
 _putchar
+void print_alphabet(void);
 #endif
