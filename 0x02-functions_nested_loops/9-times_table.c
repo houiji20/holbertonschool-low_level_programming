@@ -9,7 +9,6 @@ int n;
 
 for (row = 0; row <= 9; row++)
 {
-{
 for (n = 0; n <= 9; n++)
 {
 if (n == 0)
