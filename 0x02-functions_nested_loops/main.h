@@ -1,5 +1,5 @@
-#ifndef <stdio.h>
-#define <stdlip.h>
-_putchar
+#include <stdio.h>
+#include <stdlib.h>
+void _putchar(char c);
 void print_alphabet(void);
-#endif
+int main(void)
