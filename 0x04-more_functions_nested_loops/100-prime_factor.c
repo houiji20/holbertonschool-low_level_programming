@@ -1,23 +1,24 @@
-void print_triangle(int size)
+#include <stdio.h>
+#include <stdlib.h>
+
+/**
+ * main - Finds and prints the largest prime
+ *        factor of the number 612852475143.
+ *
+ * Return: Always 0.
+ */
+int main(void)
 {
-	int hash, index;
+	long n, i; /*Declaring statements*/
 
-	if (size > 0)
+	n = 612852475143;
+	for (i = 2; i < n; i++) /*Start FOR*/
 	{
-		for (hash = 1; hash <= size; hash++)
-		{
-			for (index = size - hash; index > 0; index--)
-				_putchar(' ');
+		while (n % i == 0)
+			n = n / i;
+	} /*End For*/
 
-			for (index = 0; index < hash; index++)
-				_putchar('#');
+	printf("%lu\n", n); /*Print new line*/
 
-			if (hash == size)
-				continue;
-
-			_putchar('\n');
-		}
-	}
-
-	_putchar('\n');
+	return (0);
 }
