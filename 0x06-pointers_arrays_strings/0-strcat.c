@@ -3,12 +3,14 @@
  * _strcat - Concatenates two strings
  * @dest: 2string
  * @src: 1string
- * return: dest
+ * Return: dest
  */
 char *_strcat(char *dest, char *src)
 {
 	int d = 0, i;
+
 	while (dest[d])
+
 {
 	d++;
 }
