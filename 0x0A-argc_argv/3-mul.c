@@ -4,7 +4,7 @@
  * main- multiply 2 integers
  * @argc : number of argumen
  * @argv : array of argumen
- * Return: 0 
+ * Return: 0 or 1 
  */
 int main(int argc, char *argv[])
 {
