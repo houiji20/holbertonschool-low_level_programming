@@ -1,15 +1,13 @@
-#include <main.h>
+ #include <stdio.h>
 /**
- * int main (__attribute__((unused))int argc, char *argv[]) - argc, argv
- * @i:compture
- * Return:0
+ * main- own name
+ * @argc : number of argumen
+ * @argv : array of argumen
+ * Return:  0
  */
-int main (__attribute__((unused))int argc, char* argv[])
-	int i;
+int main(__attribute__((unused))int argc, char *argv[])
 {
-for (i = 0; i < argc; i++)
-{	printf("argv[0] = %S\n", i, argv[i]);
-}
-	  return 0;
+		printf("%s\n", argv[0]);
+		return (0);
 }
 
