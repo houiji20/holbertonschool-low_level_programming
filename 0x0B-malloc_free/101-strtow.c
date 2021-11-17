@@ -1,4 +1,5 @@
 #include "main.h"
+#include "main.h"
 /**
  * count_word - helper function to count the number of words in a string
  * @s: string to evaluate
@@ -71,4 +72,5 @@ char **strtow(char *str)
 
 	matrix[k] = NULL;
 
-	return (
+	return (matrix);
+}
