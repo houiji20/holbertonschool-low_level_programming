@@ -46,4 +46,5 @@ int hash_table_set(hash_table_t *ht, const char *key, const char *value)
 	}
 	bucket->next = ht->array[hash];
 	ht->array[hash] = bucket;
-	return (1
+	return (1);
+}
